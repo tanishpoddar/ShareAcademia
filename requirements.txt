@@ -1,0 +1,8 @@
+# Project dependencies for ShareAcademia Java Project
+
+javax.swing
+java.awt
+java.awt.event
+java.io
+java.sql
+mysql:mysql-connector-java:8.0.33
