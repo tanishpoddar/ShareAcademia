@@ -8,6 +8,15 @@ ShareAcademia is a Java-based application designed for managing student academic
 - **Attendance Tracking**: Manage attendance records for students.
 - **GPA Calculator**: Calculate GPA based on user-provided grades and credits.
 
+## Screenshots
+
+- **Student Details**:
+  ![Student Details](https://github.com/tanishpoddar/ShareAcademia/blob/main/screenshots/screenshot1.jpg)
+
+- **GPA Calculator**:
+  ![GPA Calculator](https://github.com/tanishpoddar/ShareAcademia/blob/main/screenshots/screenshot2.jpg)
+
+
 ## Prerequisites
 
 - **Java Development Kit (JDK)**: Ensure that you have JDK 8 or above installed.
