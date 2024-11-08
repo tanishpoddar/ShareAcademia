@@ -1,0 +1,22 @@
+-- Create the studentDetailsDB database
+CREATE DATABASE studentDetailsDB;
+
+-- Use the created database
+USE studentDetailsDB;
+
+-- Create the studentDetails table
+CREATE TABLE studentDetails (
+    id VARCHAR(50) PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    age INT,
+    gpa FLOAT,
+    contact VARCHAR(50),
+    department VARCHAR(100),
+    address TEXT
+);
+
+-- Sample data for student details
+INSERT INTO studentDetails (id, name, age, gpa, contact, department, address) VALUES
+('S001', 'Raj', 20, 3.5, '555-1234', 'Computer Science', 'mumbai'),
+('S002', 'ravi', 21, 3.7, '555-5678', 'Mathematics', 'bopal'),
+('S003', 'Venkatesh', 22, 3.9, '555-8765', 'Biology', 'chennai');
